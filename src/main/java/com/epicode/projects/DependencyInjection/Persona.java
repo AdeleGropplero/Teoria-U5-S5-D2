@@ -18,7 +18,8 @@ public class Persona {
         //this.address = new EuropeanAddress("Roma", "Italia", "Via Marconi"); //Accoppiamento forte (in questo esempio ovviamente non è tra i parametri);
         this.address = address;
         this.phone = phone;
-        } é debole ma possiamo renderlo ancora più debole e generico.
+        }
+        é debole ma possiamo renderlo ancora più debole e generico.
     */
 
 /*
@@ -36,4 +37,8 @@ public class Persona {
         this.address = address;
         this.phone = phone;
     } // esempio con Interfaccia (risponde alla domanda ha un ...?) (mentre la classe risponde alla domanda è un...?)
+
+    // Con l'interfaccia possiamo mettere in relazione oggetti di tipo diverso tipo cellulare con veicolo
+    // se entrambi per esempio HANNO UN navigatore.
+    // Quindi l'interfaccia si potrebbe dire che è un collegamento ancora più debole.
 }
